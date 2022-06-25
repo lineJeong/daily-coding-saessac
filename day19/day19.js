@@ -6,7 +6,7 @@
 // 3. 반복문
 
 function pow1(str) {
-    let arr = str.split(" "); // 배열화 안하려면 => str[0], str[2] 사용
+    let arr = str.split(" ");
     return parseInt(arr[0]) ** parseInt(arr[1]);
 }
 
